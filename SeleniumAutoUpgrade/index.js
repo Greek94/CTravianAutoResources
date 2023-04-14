@@ -44,7 +44,7 @@ async function login() {
 
 
       // Wait for the upgradeable building slot to become visible
-      let element = await driver.wait(until.elementLocated(By.css('div.level.colorLayer.good')), 30000);
+      let element = await driver.wait(until.elementsLocated(By.css('div.level.colorLayer.good')));
 
       // Click on the upgradeable building slot
       await element.click();
