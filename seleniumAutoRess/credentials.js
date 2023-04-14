@@ -8,6 +8,8 @@ module.exports = [
   // {
   //   name: 'H5N2',
   //   password: 'h5n2passwrod',
+  //   url: 'https://x200.ctravian.com',
+  //   villageId: '391314'
   // },
   // {
   //   name: 'H5N3',
@@ -15,7 +17,9 @@ module.exports = [
   //   proxyHost: 'XX.XX.XX.XX',
   //   proxyPort: XXXX,
   //   proxyUser: 'XXXXXXXX',
-  //   proxyPass: 'XXXXXX'
+  //   proxyPass: 'XXXXXX'.
+  //   url: 'https://x200.ctravian.com',
+  //   villageId: '391314'
   // }
   // Add additional sets of credentials as needed
 ];
